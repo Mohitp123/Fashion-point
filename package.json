@@ -1,0 +1,14 @@
+{
+  "name": "fashion-point",
+  "version": "1.0.0",
+  "description": "Business OS for local clothing shops — inventory, sales, customers, profit tracking",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "license": "UNLICENSED"
+}

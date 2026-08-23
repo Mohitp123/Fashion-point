@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: fashion-point
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: AUTH_SECRET
+        generateValue: true
+      - key: DB_PATH
+        value: /opt/render/project/src/data.sqlite
